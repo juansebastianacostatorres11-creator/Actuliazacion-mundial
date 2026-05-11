@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "S-3 Uniformes"
+version = "1.0.0"
+id = "artifacts/s3-uniformes"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20872
+
+[services.development]
+run = "pnpm --filter @workspace/s3-uniformes run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/s3-uniformes", "run", "build" ]
+publicDir = "artifacts/s3-uniformes/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20872"
+BASE_PATH = "/"

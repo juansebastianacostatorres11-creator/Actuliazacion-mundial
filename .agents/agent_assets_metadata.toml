@@ -1,0 +1,67 @@
+uploads = []
+
+[[generated]]
+id = "KPynyCM_rreJ5mxEMxTS1"
+uri = "file://artifacts/s3-uniformes/public/hero-bg.png"
+type = "image"
+title = "Hero stadium background"
+
+[[generated]]
+id = "p_AazScxYogwAP2PYNNwl"
+uri = "file://artifacts/s3-uniformes/public/category-retro.png"
+type = "image"
+title = "Retro soccer jersey"
+
+[[generated]]
+id = "ppIG3qg8WPxF1u83pBrc0"
+uri = "file://artifacts/s3-uniformes/public/category-entrenamiento.png"
+type = "image"
+title = "Training soccer jersey"
+
+[[generated]]
+id = "7enLj7t1KCj8yIwLVVlqN"
+uri = "file://artifacts/s3-uniformes/public/category-jugador.png"
+type = "image"
+title = "Authentic match jersey"
+
+[[generated]]
+id = "kV5LhfoDKdLLAxoPGjv75"
+uri = "file://artifacts/s3-uniformes/public/category-fan.png"
+type = "image"
+title = "Replica fan jersey"
+
+[[generated]]
+id = "xB4V9hc-boRpxXPjNj1w2"
+uri = "file://artifacts/s3-uniformes/public/category-aaa.png"
+type = "image"
+title = "Premium AAA jersey"
+
+[[generated]]
+id = "9NJN7rZPRNf0YA3-WCID5"
+uri = "file://artifacts/s3-uniformes/public/category-manga-larga.png"
+type = "image"
+title = "Long sleeve jersey"
+
+[[outputs]]
+id = "_LRmKPeUSjB7VG7mlnVAg"
+uri = "file://artifacts/s3-uniformes/src/assets/s3-logo.png"
+type = "image"
+title = "Logo S-3 (preview)"
+
+[[outputs]]
+id = "av4KlwxLgxkinUdMAS55S"
+uri = "file://artifacts/s3-uniformes/src/assets/fan/ac-milan-visitante.jpg"
+type = "image"
+title = "AC Milan (preview)"
+
+[[outputs]]
+id = "8jmS06EG2xVIS1zE5mMvt"
+uri = "file://artifacts/s3-uniformes/src/assets/fan/boca-clasica.jpg"
+type = "image"
+title = "Boca clásica (preview)"
+
+[[outputs]]
+id = "cEHBjIK56Hgj2FBve8Wbx"
+uri = "file://artifacts/s3-uniformes/src/assets/fan/real-betis.jpg"
+type = "image"
+title = "Real Betis (preview)"
